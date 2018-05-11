@@ -114,12 +114,19 @@ table {
         height: 40px;
         border-radius: 5px;
         overflow: hidden; }
-        .box .wrapper .input-line .section-button img {
-          height: 15px;
+        .box .wrapper .input-line .section-button .revert-triangle {
           position: relative;
           bottom: 30px;
           float: right;
-          right: 10px; }
+          right: 10px;
+          height: 1px; }
+          .box .wrapper .input-line .section-button .revert-triangle img {
+            height: 15px; }
+        .box .wrapper .input-line .section-button svg {
+          position: relative;
+          bottom: 50px;
+          float: right;
+          right: 20px; }
       .box .wrapper .input-line .section {
         border: none;
         color: #7B7B7B;

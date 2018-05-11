@@ -53,12 +53,21 @@
                 height: 40px;
                 border-radius: 5px;
                 overflow: hidden;
-                img {
-                    height: 15px;
+                .revert-triangle{
                     position: relative;
                     bottom: 30px;
                     float: right;
                     right: 10px;
+                    height: 1px;
+                    img {
+                        height: 15px;
+                    }
+                }
+                svg {
+                    position: relative;
+                    bottom: 50px;
+                    float: right;
+                    right: 20px;
                 }
             }
             .section {

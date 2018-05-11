@@ -33,3 +33,8 @@ function validateEmail(email) {
     return false;
   }
   $('.submit').click(validate);
+  
+  function openSection(){
+    $.getElementsByClassName('.section');
+  }
+  $('.section-img').click(openSection);
