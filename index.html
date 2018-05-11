@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="build/css/style.min.css">
     <title>Shopify Test</title>
 </head>
@@ -15,19 +16,24 @@
         <p class="subscribe-text">Subscribe for free marketing tips</p>
     <!-- Box Sign-up and Selection -->
     <div class="input-line">
+        <div class="login-line">
         <input type="text" name="email-input" class="email-input" placeholder="Email Address" />
-        <select value="sections" class="section">
-            <option class="one">Interested in..</option>
-            <option value="option">Marketing</option>
-            <option value="option">Sales</option>
-            <option value="option">Logistics</option>
-            <option value="option">Oberloo</option>
-        </select>
+        <div class="section-button">
+            <select value="sections" class="section">
+                <option class="one">Interested in..</option>
+                <option value="option">Marketing</option>
+                <option value="option">Sales</option>
+                <option value="option">Logistics</option>
+                <option value="option">Oberloo</option>
+            </select>
+            <img src = "images/f0dd.svg" no-repeat>
+        </div>
+        </div>
         <p class="return-msg-wrong"></p>
-        <p class="return-msg-ok"></p>
     <!-- Sign-up button -->
         <input type="submit" value="Sign-up" class="submit"/>
     </div>
+    <p class="return-msg-ok"></p>
     </div>
     </fieldset>
 </body>

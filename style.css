@@ -47,7 +47,18 @@ table {
 
 @media (min-width: 600px) {
   .box {
-    max-width: 750px; } }
+    max-width: 660px; } }
+
+@media (min-width: 500px) {
+  .input-line .email-input {
+    width: 55%;
+    margin: 5px 5px 5px 0;
+    padding: 0 14px; }
+  .input-line .section-button {
+    width: 35%;
+    margin: 5px 0 5px 0; }
+  .submit {
+    width: 93%; } }
 
 .box {
   background-color: #000639;
@@ -70,7 +81,10 @@ table {
     .box .wrapper h1 {
       font-size: 24px;
       color: white;
-      width: 90%; }
+      width: 90%;
+      font-weight: 700;
+      letter-spacing: 1px;
+      line-height: 1.25em; }
     .box .wrapper hr {
       border-color: #7AB55C;
       width: 50px; }
@@ -79,20 +93,39 @@ table {
       margin: 25px 0; }
     .box .wrapper .input-line {
       width: 100%; }
+      .box .wrapper .input-line .login-line {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 97%; }
       .box .wrapper .input-line .email-input {
-        width: 55%;
+        width: 60%;
         height: 40px;
         border-radius: 5px;
         border: none;
-        padding: 0 14px;
-        margin: 5px 5px 5px 0; }
+        padding: 0px 0px 0px 10px;
+        margin-right: 5px; }
+      .box .wrapper .input-line .section-button {
+        -webkit-appearance: none;
+           -moz-appearance: none;
+                appearance: none;
+        background-color: white;
+        width: 40%;
+        height: 40px;
+        border-radius: 5px;
+        overflow: hidden; }
+        .box .wrapper .input-line .section-button img {
+          height: 15px;
+          position: relative;
+          bottom: 30px;
+          float: right;
+          right: 10px; }
       .box .wrapper .input-line .section {
-        width: 35%;
-        height: 40px;
-        border-radius: 5px;
         border: none;
-        margin: 5px 5px 5px 0;
-        color: #7B7B7B; }
+        color: #7B7B7B;
+        width: 107%;
+        height: 20px;
+        margin: 10px 0; }
       .box .wrapper .input-line .submit {
         margin: 10px;
         padding: 0px;

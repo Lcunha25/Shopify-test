@@ -1,5 +1,21 @@
 @media (min-width: 600px) {
     .box{
-        max-width: 750px;
+        max-width: 660px;
+    }
+}
+@media (min-width: 500px) {
+    .input-line{
+        .email-input{
+            width: 55%;
+            margin: 5px 5px 5px 0;
+            padding: 0 14px;
+        }
+        .section-button {
+            width: 35%;
+            margin: 5px 0 5px 0;
+        }
+    }
+    .submit {
+        width: 93%;
     }
 }

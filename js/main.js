@@ -11,9 +11,7 @@ function validateEmail(email) {
         $(this).val('Submiting...'); //TODO: Disable the button
 
         setTimeout(function(){
-            $('.email-input').hide('slow');
-            $('.section').hide('slow');
-            $('.submit').hide('slow');
+            $('.input-line').hide('slow');
             $('.subscribe-text').hide('slow');
             $('.return-msg-wrong').hide();
             $('.return-msg-ok').append('<h3>' + 'Thanks for subscribing' + '</h3>' + '<br>' + '<p>' + 'You ll start receiving free tips and resources soon.' + '</p>');

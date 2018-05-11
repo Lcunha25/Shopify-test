@@ -20,6 +20,9 @@
             font-size: 24px;
             color: white;
             width: 90%;
+            font-weight:700;
+            letter-spacing: 1px;
+            line-height:1.25em;
         }
         hr {
             border-color: #7AB55C;
@@ -31,22 +34,39 @@
         }
         .input-line{
             width: 100%;
+            .login-line{
+                display: flex;
+                width: 97%;
+            }
             .email-input {
-                width: 55%;
+                width: 60%;
                 height: 40px;
                 border-radius: 5px;
                 border: none;
-                padding: 0 14px;
-                margin: 5px 5px 5px 0;
-
+                padding: 0px 0px 0px 10px;
+                margin-right: 5px;
+            }
+            .section-button {
+                appearance: none;
+                background-color: white;
+                width: 40%;
+                height: 40px;
+                border-radius: 5px;
+                overflow: hidden;
+                img {
+                    height: 15px;
+                    position: relative;
+                    bottom: 30px;
+                    float: right;
+                    right: 10px;
+                }
             }
             .section {
-                width: 35%;
-                height: 40px;
-                border-radius: 5px;
                 border: none;
-                margin: 5px 5px 5px 0;
                 color: #7B7B7B;
+                width: 107%;
+                height: 20px;
+                margin: 10px 0;
             }
             .submit {
                 margin: 10px;
