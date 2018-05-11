@@ -51,11 +51,18 @@ gulp.task(
 );
 
 gulp.task('browser-sync', function() {
+  const files = [
+    './build/css/*.css',
+    './build/js/*.js',
+    './*.html',
+  ];
   browserSync.init({
       server: {
           baseDir: './'
       }
   });
+  gulp.watch(files).on('change', browserSync.reload);
+
 });
 
 

@@ -4,15 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/build/css/style.min.css">
+    <title>Shopify Test</title>
 </head>
 <body>
-    
-    <h1>Stay up to date with ecommerce trends with Shopify's newletter</h1>
-    <p>Subscribe for free marketing tips</p>
-    <!-- Box -->
-    <!-- Second Box -->
+    <fieldset class="box">
+    <div class="wrapper">
+        <h1>Stay up to date with ecommerce trends with Shopify's newsletter</h1>
+        <hr align="left">
+        <p class="subscribe-text">Subscribe for free marketing tips</p>
+    <!-- Box Sign-up and Selection -->
+    <div class="input-line">
+        <input type="text" name="email-input" class="email-input" placeholder="Email Address" />
+        <select value="sections" class="section">
+            <option class="one">Interested in..</option>
+            <option value="option">Marketing</option>
+            <option value="option">Sales</option>
+            <option value="option">Logistics</option>
+            <option value="option">Oberloo</option>
+        </select>
+        <p class="return-msg-wrong"></p>
+        <p class="return-msg-ok"></p>
     <!-- Sign-up button -->
+        <input type="submit" value="Sign-up" class="submit"/>
+    </div>
+    </div>
+    </fieldset>
 </body>
+<script
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+<script src="/build/js/main.min.js"></script>
 </html>
