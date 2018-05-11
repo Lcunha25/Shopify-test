@@ -3,7 +3,7 @@
 ## This is a test for a sign-up page on Shopify using SCSS, HTML5 and JavaScript.
 ### This has been tested with no issues on "google chrome", "mozilla firefox", "opera", and "safari".
 
-# Identified bugs
+# Bugs
 ## Small triangle not clicking
 ### Fontawesome image is in front of section tag. Because of that there is a small area that will not be clicked inside the section div.
 ## Letters inside section tag.
